@@ -1,5 +1,14 @@
 *{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("/public/assets/Dark-mode-react-in-depth-guide.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue';
+    background-size: cover;
 }
 /* .Parent{
     display: flex;
@@ -19,18 +28,20 @@ html{
     justify-content: center;
 }
 .container{
-    height: 55vh;
+    color: #fff;
+    height: 100%;
     width:100%;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* flex-direction: row; */
     align-items: center;
     gap: 1rem;
     /* margin: 0 auto; */
     margin-top: 10%;
-    margin-bottom: 8%;
+    /* margin-bottom: 8%; */
+    /* position: relative; */
 }
 .border{
     height:369px;
@@ -39,6 +50,7 @@ html{
     border-radius:10px;
     transition: border ls;
     position:relative;
+    /* border-radius: 50%; */
 }
 .border:hover{
     border: 1px solid #fff;
@@ -57,10 +69,11 @@ html{
     justify-content:center;
     align-items: center;
     position:relative;
+    /* border-radius: 2rem; */
 }
 .card1 {
     background: url("/public/assets/react3.jpg") center center no-repeat;
-    /* background-size: 300px; */
+    background-size: 300px;
     /* background-position: 100% 100%; */
 }
 .card:hover{
@@ -96,4 +109,45 @@ h2{
     align-items: center;
     justify-content: space-around;
 }
+.Intro{
+    margin-top: 2%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    /* position: fixed; */
+    /* gap: 1rem; */
+    /* border: 5px solid black; */
+    padding: 2rem;
+    color: #fff;
+    
+}
+.About{
+    width: 50%;
+    display: flex;
+}
+.picture{
+    /* width: 50%; */
+    display: flex;
+    /* border-radius: 40%; */
+    
+}
 
+.picture img{
+    height: 300px;
+    width: 100%;
+}
+.Name{
+    margin-top: 8%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #000; */
+    
+   
+}
+#textcolor{
+    color: white;
+}

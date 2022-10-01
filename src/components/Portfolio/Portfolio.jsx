@@ -1,38 +1,80 @@
-import React from "react";
-import { Card, Grid } from "@mui/material";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
+import React, { useState } from "react";
+import Typewriter from "typewriter-effect"
+// import { Card, Grid } from "@mui/material";
+// import CardActions from "@mui/material/CardActions";
+// import CardContent from "@mui/material/CardContent";
+// import CardMedia from "@mui/material/CardMedia";
+// import Button from "@mui/material/Button";
+// import Typography from "@mui/material/Typography";
+// import { CardActionArea } from "@mui/material";
 import "./Portfolio.css";
 import Navbar from "../Navbar";
+// import { Photo } from "@mui/icons-material";
 const Portfolio = () => {
+    const [state] = useState({
+        title: "Hi,",
+        titleTwo:"I'am",
+        titleThree:"Vratant Singh"
+    })
   return (
     <>
       <Navbar />
-      <div className="container" data-aos="zoom-in" data-aos-duration="3000">
-      <h1>Skills :</h1>
-        <div className="card card1" data-aos="fade-up-right" data-aos-duration="3000">
-          <div className="border">
-            <h2>React.js</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-        <div className="card card1" data-aos="zoom-in-up" data-aos-duration="3000">
-          <div className="border">
-            <h2>React.js</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-        <div className="card card1" data-aos="fade-up-left" data-aos-duration="3000">
-          <div className="border">
-            <h2>React.js</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
+      <div className="Name">
+        <h1 id="textcolor">
+            <div className="title">{state.title}</div>
+            <div className="titleTwo">{state.titleTwo}</div>
+            <div className="titleThree">{state.titleThree}</div>
+            <Typewriter
+            options={{
+                autoStart:true,
+                loop:true,
+                delay:40,
+                strings:[
+                    " Web-Developer",
+                    " Tech Enthusiast"
+                ],
+            }}
+            />
+        </h1>
         
+            
+        
+        
+      </div>
+      <div className="Intro">
+        
+        <div className="About">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+            nostrum quia similique dolorem perferendis ipsum eum earum, labore
+            nesciunt libero repellendus iure magni odit aliquid ducimus rem
+            aliquam, reprehenderit laboriosam?
+          </p>
+        </div>
+        <div className="picture">
+          <img src="/assets/photo.jpg " alt="Error"/>
+        </div>
+      </div>
+      <div className="container" data-aos="zoom-in" data-aos-duration="3000">
+        <h1>Skills :</h1>
+        <div className="card card1">
+          <div className="border">
+            <h2>React.js</h2>
+            <div className="icons"></div>
+          </div>
+        </div>
+        <div className="card card1">
+          <div className="border">
+            <h2>React.js</h2>
+            <div className="icons"></div>
+          </div>
+        </div>
+        <div className="card card1">
+          <div className="border">
+            <h2>React.js</h2>
+            <div className="icons"></div>
+          </div>
+        </div>
       </div>
       {/* <div className="Parent">
       <Card sx={{ maxWidth: 345 }}>
