@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Portfolio from './components/Portfolio/Portfolio'
 
 const App = () => {
   return (
     <>
-    <Navbar/>
+    <Portfolio/>
     </>
   )
 }
