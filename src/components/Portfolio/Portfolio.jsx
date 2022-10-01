@@ -5,41 +5,35 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { CardActionArea } from '@mui/material';
+import { CardActionArea } from "@mui/material";
 import "./Portfolio.css";
 import Navbar from "../Navbar";
 const Portfolio = () => {
   return (
     <>
       <Navbar />
-      
-      <div className="container">
-          <div className="card card1">
-            <div className="border">
-              <h2>React.js</h2>
-              <div className="icons"></div>
-            </div>
+      <div className="container" data-aos="zoom-in" data-aos-duration="3000">
+      <h1>Skills :</h1>
+        <div className="card card1" data-aos="fade-up-right" data-aos-duration="3000">
+          <div className="border">
+            <h2>React.js</h2>
+            <div className="icons"></div>
           </div>
-          <div className="card card1">
-            <div className="border">
-              <h2>React.js</h2>
-              <div className="icons"></div>
-            </div>
-          </div>
-          <div className="card card1">
-            <div className="border">
-              <h2>React.js</h2>
-              <div className="icons"></div>
-            </div>
-          </div>
-          <div className="card card1">
-            <div className="border">
-              <h2>React.js</h2>
-              <div className="icons"></div>
-            </div>
-          </div>
-          
         </div>
+        <div className="card card1" data-aos="zoom-in-up" data-aos-duration="3000">
+          <div className="border">
+            <h2>React.js</h2>
+            <div className="icons"></div>
+          </div>
+        </div>
+        <div className="card card1" data-aos="fade-up-left" data-aos-duration="3000">
+          <div className="border">
+            <h2>React.js</h2>
+            <div className="icons"></div>
+          </div>
+        </div>
+        
+      </div>
       {/* <div className="Parent">
       <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
