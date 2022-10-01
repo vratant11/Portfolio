@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Typewriter from "typewriter-effect"
+import Typewriter from "typewriter-effect";
 // import { Card, Grid } from "@mui/material";
 // import CardActions from "@mui/material/CardActions";
 // import CardContent from "@mui/material/CardContent";
@@ -11,39 +11,42 @@ import "./Portfolio.css";
 import Navbar from "../Navbar";
 // import { Photo } from "@mui/icons-material";
 const Portfolio = () => {
-    const [state] = useState({
-        title: "Hi,",
-        titleTwo:"I'am",
-        titleThree:"Vratant Singh"
-    })
+  const [state] = useState({
+    title: "Hi,",
+    titleTwo: "I'am",
+    titleThree: "Vratant Singh",
+  });
   return (
     <>
       <Navbar />
-      <div className="Name">
+      <div
+        className="Name"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
         <h1 id="textcolor">
-            <div className="title">{state.title}</div>
-            <div className="titleTwo">{state.titleTwo}</div>
-            <div className="titleThree">{state.titleThree}</div>
-            <Typewriter
+          <div className="title">{state.title}</div>
+          <div className="titleTwo">{state.titleTwo}</div>
+          <div className="titleThree">{state.titleThree}</div>
+          <Typewriter
             options={{
-                autoStart:true,
-                loop:true,
-                delay:40,
-                strings:[
-                    " Web-Developer",
-                    " Tech Enthusiast"
-                ],
+              autoStart: true,
+              loop: true,
+              delay: 40,
+              strings: [" Web-Developer", " Tech Enthusiast"],
             }}
-            />
+          />
         </h1>
-        
-            
-        
-        
       </div>
       <div className="Intro">
-        
-        <div className="About">
+        <div
+          className="About"
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
             nostrum quia similique dolorem perferendis ipsum eum earum, labore
@@ -51,8 +54,13 @@ const Portfolio = () => {
             aliquam, reprehenderit laboriosam?
           </p>
         </div>
-        <div className="picture">
-          <img src="/assets/photo.jpg " alt="Error"/>
+        <div
+          className="picture"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
+          <img src="/assets/photo.jpg " alt="Error" />
         </div>
       </div>
       <div className="container" data-aos="zoom-in" data-aos-duration="3000">
