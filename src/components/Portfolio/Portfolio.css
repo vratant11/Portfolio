@@ -146,8 +146,8 @@ h2{
     /* border: 2px solid white; */
 }
 .Name{
-    margin-top: 8%;
-    padding: 2rem;
+    margin-top: 1%;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

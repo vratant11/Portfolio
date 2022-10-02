@@ -35,8 +35,8 @@ const Portfolio = () => {
           />
         </h1>
       </div>
-        <div className="text">
-        <h1>About me :</h1>
+        <div className="text" id="Aboutme">
+        <h1>About me </h1>
         </div>
       <div className="Intro" data-aos="zoom-in" data-aos-duration="3000">
         <div className="About">
@@ -51,8 +51,8 @@ const Portfolio = () => {
           <img src="/assets/photo.jpg " alt="Error" />
         </div>
       </div>
-        <div className="text">
-        <h1>Skills :</h1>
+        <div className="text" id="skills">
+        <h1>Skills </h1>
         </div>
       <div className="container" data-aos="fade-right" data-aos-duration="3000">
         <div className="card card1">
@@ -80,8 +80,8 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-        <div className="text">
-          <h1>Projects : </h1>
+        <div className="text" id="work">
+          <h1>Projects  </h1>
         </div>
       <div className="Slider" data-aos="fade-left" data-aos-duration="3000">        
       <div className="Parent">

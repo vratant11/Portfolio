@@ -19,7 +19,7 @@ const Navbar = () => {
   console.log(isMatch);
   return (
     <>
-      <AppBar sx={{ background: "#063970" }}>
+      <AppBar position="static"  style={{ background: 'transparent', boxShadow: 'none'}}>
         <Toolbar>
           <AdbIcon />
           {isMatch ? (
@@ -41,9 +41,9 @@ const Navbar = () => {
                 indicatorColour="secondary"
                 sx={{marginLeft: 'auto'}}
               >
-                <Tab label="About" />
-                <Tab label="Skills" />
-                <Tab label="Projects" />
+                <Tab label="About" href="#Aboutme"/>
+                <Tab label="Skills" href="#skills" />
+                <Tab label="Projects" href="#work"/>
               </Tabs>
               <Button sx={{ marginLeft: "auto" }} variant="contained">
                 Profile
