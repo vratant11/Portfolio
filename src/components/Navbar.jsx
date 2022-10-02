@@ -41,9 +41,9 @@ const Navbar = () => {
                 indicatorColour="secondary"
                 sx={{marginLeft: 'auto'}}
               >
-                <Tab label="aaaaa" />
-                <Tab label="bbbbb" />
-                <Tab label="ccccc" />
+                <Tab label="About" />
+                <Tab label="Skills" />
+                <Tab label="Projects" />
               </Tabs>
               <Button sx={{ marginLeft: "auto" }} variant="contained">
                 Profile

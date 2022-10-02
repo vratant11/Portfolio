@@ -11,17 +11,17 @@ const DrawerComp = () => {
         <List>
             <ListItemButton onClick={()=>setOpenDrawer(false)}>
                 <ListItemIcon>
-                    <ListItemText>aaaa</ListItemText>
+                    <ListItemText>About</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
             <ListItemButton onClick={()=>setOpenDrawer(false)}>
                 <ListItemIcon>
-                    <ListItemText>bbbb</ListItemText>
+                    <ListItemText>Skills</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
             <ListItemButton onClick={()=>setOpenDrawer(false)}>
                 <ListItemIcon>
-                    <ListItemText>cccc</ListItemText>
+                    <ListItemText>Projects</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
         </List>

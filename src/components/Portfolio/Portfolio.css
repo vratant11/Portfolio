@@ -4,20 +4,21 @@
     padding: 0;
 }
 body{
-    background: url("/public/assets/Dark-mode-react-in-depth-guide.avif");
+    background: url("/public/assets/abstract-dark-hexagon-carbon-fiber-background_156943-1.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Bebas Neue';
     background-size: cover;
 }
-/* .Parent{
+.Parent{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
     margin-bottom: 4rem;
-} */
+    gap: 2rem;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -39,7 +40,7 @@ html{
     align-items: center;
     gap: 1rem;
     /* margin: 0 auto; */
-    margin-top: 10%;
+    margin-top: 5%;
     /* margin-bottom: 8%; */
     /* position: relative; */
 }
@@ -73,7 +74,7 @@ html{
 }
 .card1 {
     background: url("/public/assets/react3.jpg") center center no-repeat;
-    background-size: 300px;
+    /* background-size: 300px; */
     /* background-position: 100% 100%; */
 }
 .card:hover{
@@ -117,25 +118,32 @@ h2{
     justify-content: center;
     /* position: fixed; */
     /* gap: 1rem; */
-    /* border: 5px solid black; */
-    padding: 2rem;
+    /* border: 5px solid white; */
+    border-radius: 8rem;
+    padding: 0.5rem;
     color: #fff;
-    
+    margin-bottom: 2%;
+    font-size: 1.5rem;
 }
 .About{
     width: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .picture{
     /* width: 50%; */
     display: flex;
-    /* border-radius: 40%; */
+    border-radius: 40%;
+    border: 3px solid white;
+
     
 }
 
 .picture img{
     height: 300px;
     width: 100%;
+    /* border: 2px solid white; */
 }
 .Name{
     margin-top: 8%;
@@ -150,4 +158,27 @@ h2{
 }
 #textcolor{
     color: white;
+    /* border: 5px solid white; */
+    /* border-radius: 5%; */
 }
+.Slider{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: #fff;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.text{
+    display: flex;
+    margin-top: 5%;
+    padding: 1rem;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
