@@ -46,7 +46,7 @@ const Navbar = () => {
                 <Tab label="Projects" href="#work"/>
               </Tabs>
               <Button sx={{ marginLeft: "auto" }} variant="contained">
-                Profile
+                Download CV
               </Button>
             </>
           )}

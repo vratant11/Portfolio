@@ -1,6 +1,7 @@
 import React ,{useState} from 'react'
 import {Drawer,List, ListItemText,ListItemIcon,ListItemButton, IconButton} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
+// import { Link } from "react-router-dom";
 const DrawerComp = () => {
     const [openDrawer,setOpenDrawer] = useState(false)
   return (
@@ -9,19 +10,19 @@ const DrawerComp = () => {
     onClose={()=>setOpenDrawer(false)}
     >
         <List>
-            <ListItemButton onClick={()=>setOpenDrawer(false)}>
+            <ListItemButton onClick={()=>setOpenDrawer(false)} >
                 <ListItemIcon>
                     <ListItemText>About</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
             <ListItemButton onClick={()=>setOpenDrawer(false)}>
                 <ListItemIcon>
-                    <ListItemText>Skills</ListItemText>
+                    <ListItemText >Skills</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
             <ListItemButton onClick={()=>setOpenDrawer(false)}>
                 <ListItemIcon>
-                    <ListItemText>Projects</ListItemText>
+                    <ListItemText >Projects</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
         </List>
