@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
 import "./Portfolio.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import Navbar from "../Navbar";
 import {
+  Button,
   Card,
   CardActionArea,
   CardContent,
@@ -61,8 +66,9 @@ const Portfolio = () => {
           <p>
             B.tech( CS ) undergrad student with coding knowledge in different
             programming languages. Professional with knowledge of designing and
-            building front end web pages using React. js and currently working on Web 3.
-          </p>          
+            building front end web pages using React. js and currently working
+            on Web 3.
+          </p>
         </div>
         <div className="picture">
           <img src="/assets/profile.jpeg " alt="Error" />
@@ -74,44 +80,44 @@ const Portfolio = () => {
       <div className="container" data-aos="fade-right" data-aos-duration="3000">
         <div className="card card1">
           <div className="border">
-            <h2>React.js</h2>
+            <h2>Bootstrap</h2>
             <div className="icons"></div>
           </div>
         </div>
         <div className="card card2">
           <div className="border">
-            <h2>React.js</h2>
+            <h2>C</h2>
             <div className="icons"></div>
           </div>
         </div>
         <div className="card card3">
           <div className="border">
-            <h2>React.js</h2>
+            <h2>C++</h2>
             <div className="icons"></div>
           </div>
         </div>
         <div className="card card4">
           <div className="border">
-            <h2>React.js</h2>
+            <h2>CSS</h2>
             <div className="icons"></div>
           </div>
         </div>
         <div className="card card5">
           <div className="border">
-            <h2>React.js</h2>
+            <h2>Git</h2>
             <div className="icons"></div>
           </div>
         </div>
 
         <div className="card card6">
           <div className="border">
-            <h2>React.js</h2>
+            <h2>Html</h2>
             <div className="icons"></div>
           </div>
         </div>
         <div className="card card7">
           <div className="border">
-            <h2>React.js</h2>
+            <h2>Java Script</h2>
             <div className="icons"></div>
           </div>
         </div>
@@ -243,6 +249,36 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
           </Card>
+        </div>
+      </div>
+      <div className="text">
+        <h1 id="contacttext">Profiles</h1>
+      </div>
+      <div className="contact">
+          <Button onClick={() => window.open("https://github.com/vratant11", "_blank")}>
+        <div id="git">
+          <GitHubIcon fontSize="large" />
+        </div>
+          </Button>
+        <Button onClick={() => window.open("https://twitter.com/SinghVratant", "_blank")}>
+        <div id="twitter">
+          <TwitterIcon fontSize="large" />
+        </div>
+          </Button>
+        <Button onClick={() => window.open("https://www.linkedin.com/in/vratant-singh/", "_blank")}>
+        <div id="linkdin">
+          <LinkedInIcon fontSize="large" />
+        </div>
+          </Button>
+        <Button onClick={() => window.open("https://www.instagram.com/vratant11/", "_blank")}>
+        <div id="instagram">
+          <InstagramIcon fontSize="large"  />
+        </div>
+          </Button>
+      </div>
+      <div className="mail">
+        <div className="btn">
+        <Button id="button" href="mailto:vratant11@gmail.com">Mail Vratant</Button>
         </div>
       </div>
     </>
