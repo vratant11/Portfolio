@@ -41,20 +41,17 @@ const Portfolio = () => {
           />
         </h1>
         <div className="wrapper">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-
-
-
       </div>
       <div className="text" id="Aboutme">
         <h1>About me </h1>
@@ -62,14 +59,13 @@ const Portfolio = () => {
       <div className="Intro" data-aos="zoom-in" data-aos-duration="3000">
         <div className="About">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-            nostrum quia similique dolorem perferendis ipsum eum earum, labore
-            nesciunt libero repellendus iure magni odit aliquid ducimus rem
-            aliquam, reprehenderit laboriosam?
-          </p>
+            B.tech( CS ) undergrad student with coding knowledge in different
+            programming languages. Professional with knowledge of designing and
+            building front end web pages using React. js and currently working on Web 3.
+          </p>          
         </div>
         <div className="picture">
-          <img src="/assets/photo.jpg " alt="Error" />
+          <img src="/assets/profile.jpeg " alt="Error" />
         </div>
       </div>
       <div className="text" id="skills">
@@ -88,38 +84,38 @@ const Portfolio = () => {
             <div className="icons"></div>
           </div>
         </div>
-        <div className="card card1">
+        <div className="card card3">
           <div className="border">
             <h2>React.js</h2>
             <div className="icons"></div>
           </div>
         </div>
-        <div className="card card1">
+        <div className="card card4">
           <div className="border">
             <h2>React.js</h2>
             <div className="icons"></div>
           </div>
         </div>
-        <div className="card card1">
+        <div className="card card5">
           <div className="border">
             <h2>React.js</h2>
             <div className="icons"></div>
           </div>
         </div>
 
-        <div className="card card1">
+        <div className="card card6">
           <div className="border">
             <h2>React.js</h2>
             <div className="icons"></div>
           </div>
         </div>
-        <div className="card card1">
+        <div className="card card7">
           <div className="border">
             <h2>React.js</h2>
             <div className="icons"></div>
           </div>
         </div>
-        <div className="card card1">
+        <div className="card card8">
           <div className="border">
             <h2>React.js</h2>
             <div className="icons"></div>
