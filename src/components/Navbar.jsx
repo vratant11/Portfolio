@@ -19,7 +19,7 @@ const Navbar = () => {
   console.log(isMatch);
   return (
     <>
-      <AppBar position="static"  style={{ background: 'transparent', boxShadow: 'none'}}>
+      <AppBar   style={{ background: 'transparent', boxShadow: 'none'}}>
         <Toolbar>
           <AdbIcon />
           {isMatch ? (

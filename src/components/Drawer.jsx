@@ -25,6 +25,11 @@ const DrawerComp = () => {
                     <ListItemText >Projects</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
+            <ListItemButton onClick={()=>setOpenDrawer(false)}>
+                <ListItemIcon>
+                    <ListItemText >Download CV</ListItemText>
+                </ListItemIcon>
+            </ListItemButton>
         </List>
     </Drawer>
     <IconButton sx={{color: "white", marginLeft: "auto"}} onClick={()=>setOpenDrawer(!openDrawer)}>
