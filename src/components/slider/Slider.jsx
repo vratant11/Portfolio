@@ -6,7 +6,7 @@ import { EffectFlip, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-flip";
-import "swiper/css/navigation";
+// import "swiper/css/navigation";
 const slider = () => {
   return (
     <>
@@ -26,6 +26,9 @@ const slider = () => {
         effect={"flip"}
         grabCursor={true}
         pagination={true}
+        autoplay={{
+          delay:2500,
+        }}
         navigation={true}
         modules={[EffectFlip, Pagination, Navigation]}
         className="mySwiper"
