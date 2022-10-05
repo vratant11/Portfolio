@@ -9,16 +9,9 @@ body{
     background-attachment: fixed;
     font-family: 'Bebas Neue';
     background-size: cover;
+    /* overflow-x: hidden; */
 }
-.Parent{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
-    gap: 2rem;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -28,23 +21,7 @@ html{
     
     justify-content: center;
 }
-.container{
-    color: #fff;
-    height: 100%;
-    width:100%;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /* overflow: hidden; */
-    overflow-x: hidden;
-    /* flex-direction: row; */
-    align-items: center;
-    gap: 1rem;
-    /* margin: 0 auto; */
-    margin-top: 5%;
-    /* margin-bottom: 8%; */
-    /* position: relative; */
-}
+
 .border{
     height:369px;
     width:290px;
@@ -57,6 +34,38 @@ html{
 .border:hover{
     border: 1px solid #fff;
 }
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
 .card{
     /* height:53%;
     width:25%; */
@@ -140,7 +149,7 @@ html{
     opacity: 1;
 }
 .card5 {
-    background: url("/public/assets/Git-Icon-1788C.png") center center no-repeat;
+    /* background: url("/public/assets/Git-Icon-1788C.png") center center no-repeat; */
     background-size: 300px;
     /* background-position: 100% 100%; */
 }
@@ -172,7 +181,7 @@ html{
     opacity: 1;
 }
 .card7 {
-    background: url("/public/assets/Unofficial_JavaScript_logo_2.svg.png") center center no-repeat;
+    /* background: url("/public/assets/Unofficial_JavaScript_logo_2.svg.png") center center no-repeat; */
     background-size: 300px;
     /* background-position: 100% 100%; */
 }
@@ -203,13 +212,6 @@ html{
 .card8:hover .fa{
     opacity: 1;
 }
-
-
-
-
-
-
-
 h2{
     color: #fff;
     margin: 20px;
@@ -232,156 +234,12 @@ h2{
     align-items: center;
     justify-content: space-around;
 }
-.Intro{
-    margin-top: 2%;
-    float: left;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    /* position: fixed; */
-    gap: 1rem;
-    /* border: 5px solid white; */
-    border-radius: 8rem;
-    padding: 1rem;
-    color: beige;
-    margin-bottom: 2%;
-    font-size: 1.8rem;
-    text-shadow: 2px 2px black;
-}
-.About{
-    width: 50%;
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    align-items: center;
-}
-.picture{
-    /* width: 50%; */               
-    display: flex;
-    /* flex-wrap: wrap; */
-    border-radius: 5%;
-    /* border: 2px solid black; */
 
-    
-}
 
-.picture img{
-    height: 50vh;
-    width: 100%;
-    /* border: 2px solid white; */
-}
-.Name{
-    margin-top: 1%;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-shadow: 5px 5px black;
-    width: 100%;
-    height: 70vh;
-    /* background: linear-gradient(90deg,rgba(46, 57, 59,0.8),rgba(45, 52, 54,1.0)) ; */
- 
-    /* background-color: #000; */
-    
-   
-}
-.Name h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 3rem;
-    letter-spacing: 5px;
-
-}
-.wrapper{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    /* overflow: hidden; */
-}
-.wrapper div{
-    width: 70px;
-    height: 70px;
-    border: 5px solid white;
-    position: absolute; 
-}
-.wrapper div:nth-child(1){
-    top:10%;
-    left:30%;
-    animation:square 5s linear infinite;
-}
-.wrapper div:nth-child(2){
-    top:20%;
-    left:50%;
-    animation:square 8s linear infinite;
-}
-.wrapper div:nth-child(3){
-    top:60%;
-    left:10%;
-    animation:square 9s linear infinite;
-}
-.wrapper div:nth-child(4){
-    top:50%;
-    left:40%;
-    animation:square 11s linear infinite;
-}
-.wrapper div:nth-child(5){
-    top:40%;
-    left:60%;
-    animation:square 7s linear infinite;
-}
-.wrapper div:nth-child(6){
-    top:80%;
-    left:30%;
-    animation:square 13s linear infinite;
-}
-.wrapper div:nth-child(7){
-    top:10%;
-    left:10%;
-    animation:square 12s linear infinite;
-}
-.wrapper div:nth-child(8){
-    top:20%;
-    left:85%;
-    animation:square 8s linear infinite;
-}
-.wrapper div:nth-child(9){
-    top:75%;
-    left:65%;
-    animation:square 9s linear infinite;
-}
-.wrapper div:nth-child(10){
-    top:80%;
-    left:85%;
-    animation:square 7s linear infinite;
-}
-@keyframes square{
-    0%{
-        transform: scale(0) translate(0) rotate(0);
-        opacity: 1;
-    }
-    100%{
-        transform: scale(1.2) translate(-90px) rotate(360deg);
-        opacity: 0;
-    }
-}
 #textcolor{
     color: beige;
     /* border: 5px solid white; */
     /* border-radius: 5%; */
-}
-.Slider{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    color: beige;
-    /* align-items: center; */
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-
 }
 .text{
     display: flex;
@@ -392,48 +250,6 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     text-shadow: 5px 5px black;
+    overflow-x: hidden;
     
-}
-.contact{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 3rem;
-    padding: 2rem;
-    /* overflow: hidden; */
-}
-#contacttext{
-    font-size: 2.5rem;
-}
-.contact div{
-    /* width: 15%; */
-    display: flex;
-    justify-content: center;
-}
-#git{
-    color: white;
-
-}
-#twitter{
-    color: blue;
-}
-#linkdin{
-    color: darkblue;
-}
-#instagram{
-    color: pink;
-}
-.mail{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    font-weight: 600;
-    
-    
-}
-#button{
-    background-color: beige !important;
-       color: #000 !important;
-    border-radius: 5px;
 }

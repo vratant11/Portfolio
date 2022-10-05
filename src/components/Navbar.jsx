@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import "./Navbar.css";
 import {
   AppBar,
-  Typography,
   Toolbar,
   Tab,
   Tabs,
@@ -19,21 +19,21 @@ const Navbar = () => {
   console.log(isMatch);
   return (
     <>
-      <AppBar   style={{ background: 'transparent', boxShadow: 'none'}}>
+      <AppBar className="appbar" position="sticky" style={{ background: 'transparent', boxShadow: 'none'}}>
         <Toolbar>
           <AdbIcon />
           {isMatch ? (
             <>
-              <Typography sx={{ fontSize: "1.5rem", paddingLeft: "10%" }}>
+              {/* <Typography sx={{ fontSize: "1.5rem", paddingLeft: "10%" }}>
                 My-Portfolio
-              </Typography>
+              </Typography> */}
               <DrawerComp />
             </>
           ) : (
             <>
-            <Typography sx={{ fontSize: "1.5rem", paddingLeft: "1%" }}>
+            {/* <Typography sx={{ fontSize: "1.5rem", paddingLeft: "1%" }}>
                 My-Portfolio
-              </Typography>
+              </Typography> */}
               <Tabs
                 textColor="inherit"
                 value={value}

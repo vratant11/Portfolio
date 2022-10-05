@@ -1,0 +1,43 @@
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+    overflow: hidden;
+}
+#contacttext{
+    font-size: 2.5rem;
+}
+.contact div{
+    /* width: 15%; */
+    display: flex;
+    justify-content: center;
+}
+#git{
+    color: white;
+
+}
+#twitter{
+    color: blue;
+}
+#linkdin{
+    color: darkblue;
+}
+#instagram{
+    color: pink;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 600;
+    
+    
+}
+#button{
+    background-color: beige !important;
+       color: #000 !important;
+    border-radius: 5px;
+}

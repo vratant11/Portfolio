@@ -1,0 +1,39 @@
+.Intro{
+    margin-top: 2%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    /* position: fixed; */
+    gap: 1rem;
+    /* border: 5px solid white; */
+    border-radius: 8rem;
+    padding: 1rem;
+    color: beige;
+    margin-bottom: 2%;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px black;
+    overflow-x: hidden;
+}
+.About{
+    width: 50%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+.picture{
+    /* width: 50%; */               
+    display: flex;
+    /* flex-wrap: wrap; */
+    border-radius: 5%;
+    /* border: 2px solid black; */
+
+    
+}
+
+.picture img{
+    height: 50vh;
+    width: 100%;
+    /* border: 2px solid white; */
+}
