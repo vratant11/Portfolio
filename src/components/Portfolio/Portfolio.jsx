@@ -33,7 +33,9 @@ const Portfolio = () => {
       <div className="text" id="skills">
         <h1>Skills </h1>
       </div>
-      <Slider />
+      {/* <div style={{"display":"flex", "justifyContent":"center"}}> */}
+      <Slider/>
+      {/* </div> */}
 
       {/* <div className="container" data-aos="fade-right" data-aos-duration="3000">
         <div className="card card1">

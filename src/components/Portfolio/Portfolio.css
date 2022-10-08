@@ -1,5 +1,5 @@
 *{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0;
     padding: 0;
 }
@@ -17,8 +17,7 @@ html{
 }
 .Headings{
     margin-top: 10%;
-    display: flex;
-    
+    display: flex; 
     justify-content: center;
 }
 

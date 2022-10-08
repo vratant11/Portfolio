@@ -1,30 +1,18 @@
-import React from 'react'
+import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 import "./slider.css";
 
-// import required modules
 import { EffectCoverflow, Pagination } from "swiper";
-const slider = () => {
+
+export default function App() {
   return (
     <>
-    {/* <div className="container">
-        <div className="img-container">
-          <img src="/assets/bootstrap.png" alt="error"/>
-          <img src="/assets/cimage.jpg" alt="error"/>
-          <img src="/assets/c++image.jpg" alt="error"/>
-          <img src="/assets/cssimage.png" alt="error"/>
-          <img src="/assets/html5image.png" alt="error"/>
-          <img src="/assets/javascript.png" alt="error"/>
-          <img src="/assets/git.png" alt="error"/>
-          <img src="/assets/react3.jpg" alt="error"/>
-        </div>
-      </div> */}
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -54,20 +42,18 @@ const slider = () => {
           <img src="/assets/cssimage.png" alt="Error" />
         </SwiperSlide>
         <SwiperSlide>
+          <img src="/assets/git.png" alt="Error" />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src="/assets/html5image.png" alt="Error" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="/assets/javascript.png" alt="Error" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/git.png" alt="Error" />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src="/assets/react3.jpg" alt="Error" />
         </SwiperSlide>
-      </Swiper>      
+      </Swiper>
     </>
-  )
+  );
 }
-
-export default slider

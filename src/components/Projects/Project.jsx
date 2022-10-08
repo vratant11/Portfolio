@@ -1,12 +1,19 @@
-import { Card, CardActionArea, CardContent, CardMedia, Typography } from "@mui/material";
+import {
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Typography,
+} from "@mui/material";
 import React from "react";
 import "./Project.css";
 const Project = () => {
   return (
     <>
-      <div className="Slider" data-aos="fade-left" data-aos-duration="3000">
+      <div className="Slider" >
+      {/* data-aos="fade-left" data-aos-duration="3000" */}
         <div className="Parent">
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -26,7 +33,7 @@ const Project = () => {
             </CardActionArea>
           </Card>
 
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -46,7 +53,7 @@ const Project = () => {
             </CardActionArea>
           </Card>
 
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -65,7 +72,7 @@ const Project = () => {
               </CardContent>
             </CardActionArea>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -84,7 +91,7 @@ const Project = () => {
               </CardContent>
             </CardActionArea>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -103,7 +110,7 @@ const Project = () => {
               </CardContent>
             </CardActionArea>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"

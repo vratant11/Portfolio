@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import "./About.css";
 const About = () => {
   return (
     <>
-    <div className="Intro" data-aos="zoom-in" data-aos-duration="3000">
+      <div className="Intro">
         <div className="About">
           <p>
             B.tech( CS ) undergrad student with coding knowledge in different
@@ -17,7 +17,7 @@ const About = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
