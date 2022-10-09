@@ -9,11 +9,11 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: url("/public/assets/8zqeXx.jpg");
+    /* background: url("/public/assets/8zqeXx.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Bebas Neue';
-    background-size: cover;   
+    background-size: cover;    */
 }
 .Name h1{
     position: absolute;
