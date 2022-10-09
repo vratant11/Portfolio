@@ -8,7 +8,7 @@ const Cursor = () => {
       color='202, 61, 61'
       outerAlpha={0.5}
       innerScale={0.8}
-      outerScale={5}
+      outerScale={2}
       clickables={[
         'a',
         'input[type="text"]',

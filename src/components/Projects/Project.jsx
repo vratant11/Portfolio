@@ -10,8 +10,7 @@ import "./Project.css";
 const Project = () => {
   return (
     <>
-      <div className="Slider" >
-      {/* data-aos="fade-left" data-aos-duration="3000" */}
+      <div className="Slider" data-aos="zoom-in-down" data-aos-duration="3000">
         <div className="Parent">
           <Card sx={{ maxWidth: 300 }}>
             <CardActionArea>
