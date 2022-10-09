@@ -1,12 +1,14 @@
-import React from 'react'
-import Portfolio from './components/Portfolio/Portfolio'
-
+import React from "react";
+import Cursor from "./components/Cursor";
+import Portfolio from "./components/Portfolio/Portfolio";
 const App = () => {
   return (
     <>
-    <Portfolio/>
+      <Cursor/>
+        <Portfolio />
+      
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

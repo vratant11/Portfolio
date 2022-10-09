@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Navbar.css";
 import {
   AppBar,
   Toolbar,
@@ -19,7 +18,7 @@ const Navbar = () => {
   console.log(isMatch);
   return (
     <>
-      <AppBar className="appbar" position="sticky" style={{ background: 'transparent', boxShadow: 'none'}}>
+      <AppBar  position="static" style={{ background: 'grey', boxShadow: 'none'}}>
         <Toolbar>
           <AdbIcon />
           {isMatch ? (

@@ -33,61 +33,7 @@ const Portfolio = () => {
       <div className="text" id="skills">
         <h1>Skills </h1>
       </div>
-      {/* <div style={{"display":"flex", "justifyContent":"center"}}> */}
       <Slider/>
-      {/* </div> */}
-
-      {/* <div className="container" data-aos="fade-right" data-aos-duration="3000">
-        <div className="card card1">
-          <div className="border">
-            <h2>Bootstrap</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-        <div className="card card2">
-          <div className="border">
-            <h2>C</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-        <div className="card card3">
-          <div className="border">
-            <h2>C++</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-        <div className="card card4">
-          <div className="border">
-            <h2>CSS</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-        <div className="card card5">
-          <div className="border">
-            <h2>Git</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-
-        <div className="card card6">
-          <div className="border">
-            <h2>Html</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-        <div className="card card7">
-          <div className="border">
-            <h2>Java Script</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-        <div className="card card8">
-          <div className="border">
-            <h2>React.js</h2>
-            <div className="icons"></div>
-          </div>
-        </div>
-      </div> */}
       <div className="text" id="work">
         <h1>Projects </h1>
       </div>

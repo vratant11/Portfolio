@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <div className="Intro">
+      <div className="Intro" data-aos="zoom-in" data-aos-duration="3000">
         <div className="About">
           <p>
             B.tech( CS ) undergrad student with coding knowledge in different

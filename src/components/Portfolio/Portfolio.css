@@ -1,15 +1,12 @@
 *{
-    /* overflow-x: hidden; */
     margin: 0;
     padding: 0;
 }
 body{
-    background: url("/public/assets/8zqeXx.jpg");
+    background: url("/public/assets/blackbg.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Bebas Neue';
-    background-size: cover;
-    /* overflow-x: hidden; */
 }
 
 html{
@@ -20,230 +17,13 @@ html{
     display: flex; 
     justify-content: center;
 }
-
-.border{
-    height:369px;
-    width:290px;
-    background:transparent;
-    border-radius:10px;
-    transition: border ls;
-    position:relative;
-    /* border-radius: 50%; */
-}
-.border:hover{
-    border: 1px solid #fff;
-}
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-.card{
-    /* height:53%;
-    width:25%; */
-    background:#808080;
-    border-radius: 1rem;
-    transition: background 0.8s;
-    overflow: hidden;
-    background:#000;
-    box-shadow: 0 70px 63px -60px #000;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
-    position:relative;
-    /* border-radius: 2rem; */
-}
-.card1 {
-    background: url("/public/assets/bootstrap.png") center center no-repeat;
-    background-size: 300px;
-    /* background-position: 100% 100%; */
-}
-.card1:hover{
-    background: url("/public/assets/react2.jpg") left center no-repeat;
-    background-size: 600px;
-    cursor: pointer;
-}
-.card1:hover h2 {
-    opacity: 1;
-}
-.card1:hover .fa{
-    opacity: 1;
-}
-
-
-.card2 {
-    background: url("/public/assets/cimage.jpg") center center no-repeat;
-    background-size: 300px;
-    /* background-position: 100% 100%; */
-}
-.card2:hover{
-    background: url("/public/assets/react2.jpg") left center no-repeat;
-    background-size: 600px;
-    cursor: pointer;
-}
-.card2:hover h2 {
-    opacity: 1;
-}
-.card2:hover .fa{
-    opacity: 1;
-}
-.card3 {
-    background: url("/public/assets/c++image.jpg") center center no-repeat;
-    background-size: 300px;
-    /* background-position: 100% 100%; */
-}
-.card3:hover{
-    background: url("/public/assets/react2.jpg") left center no-repeat;
-    background-size: 600px;
-    cursor: pointer;
-}
-.card3:hover h2 {
-    opacity: 1;
-}
-.card3:hover .fa{
-    opacity: 1;
-}
-.card4 {
-    background: url("/public/assets/cssimage.png") center center no-repeat;
-    background-size: 300px;
-    /* background-position: 100% 100%; */
-}
-.card4:hover{
-    background: url("/public/assets/react2.jpg") left center no-repeat;
-    background-size: 600px;
-    cursor: pointer;
-}
-.card4:hover h2 {
-    opacity: 1;
-}
-.card4:hover .fa{
-    opacity: 1;
-}
-.card5 {
-    /* background: url("/public/assets/Git-Icon-1788C.png") center center no-repeat; */
-    background-size: 300px;
-    /* background-position: 100% 100%; */
-}
-.card5:hover{
-    background: url("/public/assets/react2.jpg") left center no-repeat;
-    background-size: 600px;
-    cursor: pointer;
-}
-.card5:hover h2 {
-    opacity: 1;
-}
-.card5:hover .fa{
-    opacity: 1;
-}
-.card6 {
-    background: url("/public/assets/html5image.png") center center no-repeat;
-    background-size: 300px;
-    /* background-position: 100% 100%; */
-}
-.card6:hover{
-    background: url("/public/assets/react2.jpg") left center no-repeat;
-    background-size: 600px;
-    cursor: pointer;
-}
-.card6:hover h2 {
-    opacity: 1;
-}
-.card6:hover .fa{
-    opacity: 1;
-}
-.card7 {
-    /* background: url("/public/assets/Unofficial_JavaScript_logo_2.svg.png") center center no-repeat; */
-    background-size: 300px;
-    /* background-position: 100% 100%; */
-}
-.card7:hover{
-    background: url("/public/assets/react2.jpg") left center no-repeat;
-    background-size: 600px;
-    cursor: pointer;
-}
-.card7:hover h2 {
-    opacity: 1;
-}
-.card7:hover .fa{
-    opacity: 1;
-}
-.card8 {
-    background: url("/public/assets/react3.jpg") center center no-repeat;
-    background-size: 300px;
-    /* background-position: 100% 100%; */
-}
-.card8:hover{
-    background: url("/public/assets/react2.jpg") left center no-repeat;
-    background-size: 600px;
-    cursor: pointer;
-}
-.card8:hover h2 {
-    opacity: 1;
-}
-.card8:hover .fa{
-    opacity: 1;
-}
-h2{
-    color: #fff;
-    margin: 20px;
-    opacity: 0;
-    transition: opacity ls;
-}
-.fa{
-    opacity:0;
-    transition: opacity ls;
-}
-.icons{
-    position:absolute;
-    fill: #fff;
-    color: #fff;
-    height:130px;
-    top:226px;
-    width:50px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
 #textcolor{
     color: beige;
-    /* border: 5px solid white; */
-    /* border-radius: 5%; */
 }
 .text{
     display: flex;
-    margin-top: 5%;
-    padding: 1rem;
+    /* margin-top: 5%; */
+    /* padding: 1rem; */
     justify-content: center;
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
