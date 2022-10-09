@@ -24,7 +24,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Typewriterr/>
       <div className="text" id="Aboutme">
         <h1>About me </h1>

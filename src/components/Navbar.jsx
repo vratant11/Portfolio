@@ -44,7 +44,7 @@ const Navbar = () => {
                 <Tab label="Skills" href="#skills" />
                 <Tab label="Projects" href="#work"/>
               </Tabs>
-              <Button  sx={{ marginLeft: "auto" }} variant="contained">
+              <Button  sx={{ marginLeft: "auto" }} variant="contained" href="https://drive.google.com/file/d/1sbS_q8qg4foBcqWp6dGvgOgguYZdFdbz/view" target="_blank">
                 Download CV
               </Button>
             </>
