@@ -14,7 +14,7 @@
     /* border: 2px solid rgb(252, 237, 237); */
     gap:2vw;
     flex-wrap: wrap-reverse;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
 }
 .About{
     width: 50vw;
