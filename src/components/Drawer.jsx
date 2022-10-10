@@ -25,6 +25,11 @@ const DrawerComp = () => {
                     <ListItemText >Projects</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
+            <ListItemButton onClick={()=>setOpenDrawer(false)} component="a" href="#profile">
+                <ListItemIcon>
+                    <ListItemText >Profiles</ListItemText>
+                </ListItemIcon>
+            </ListItemButton>
             <ListItemButton onClick={()=>setOpenDrawer(false)} component="a" href="https://drive.google.com/file/d/1sbS_q8qg4foBcqWp6dGvgOgguYZdFdbz/view" target="_blank">
                 <ListItemIcon>
                     <ListItemText >Download CV</ListItemText>

@@ -7,13 +7,13 @@ import 'react-vertical-timeline-component/style.min.css';
 import "./Timeline.css";
 const Timeline = () => {
   return (
-    <div className='Projects'>
+    <div className='Projects' >
     <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
+    date="28/12/21 - 30/12/21"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
@@ -25,7 +25,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2010 - 2011"
+    date="02/01/22 - 05/01/22"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
@@ -37,7 +37,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2008 - 2010"
+    date="08/01/22 - 20/01/22"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
@@ -49,7 +49,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2006 - 2008"
+    date="22/01/22 - 10/02/22"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
@@ -61,7 +61,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="April 2013"
+    date="07/04/22-01/05/22"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
@@ -73,7 +73,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="November 2012"
+    date="01/06/22-18/09/22"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
@@ -85,7 +85,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2002 - 2006"
+    date="01/09/22 - 15/09/22"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
@@ -97,7 +97,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2002 - 2006"
+    date="17/08/22 - 30/08/22"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
@@ -109,7 +109,7 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2002 - 2006"
+    date="01/09/22 - 10/09/22"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<SchoolIcon />}
   >

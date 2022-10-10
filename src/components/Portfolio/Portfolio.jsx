@@ -34,8 +34,8 @@ const Portfolio = () => {
         <h1>Skills </h1>
       </div>
       <Slider/>
-      <div className="text">
-        <h1 id="contacttext">Projects</h1>
+      <div className="text" id="work">
+        <h1 >Projects</h1>
       </div> 
       <Timeline/>      
       <div className="text">

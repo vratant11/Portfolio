@@ -8,7 +8,7 @@ import "./Profile.css";
 const Profile = () => {
   return (
     <>
-      <div className="contact">
+      <div className="contact" id="profile">
         <Button
           onClick={() => window.open("https://github.com/vratant11", "_blank")}
         >
