@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 // import required modules
 // import { Pagination } from "swiper";
 import About from "../About/About";
-import Typewriterr from "../../Typewriter/Typewriterr";
+import Typewriterr from "../Typewriter/Typewriterr";
 import Timeline from "../Timeline";
 // import { spacing } from "@mui/system";
 const Portfolio = () => {

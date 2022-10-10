@@ -13,6 +13,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 export default function App() {
   return (
     <>
+    <div className="skills">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -54,6 +55,7 @@ export default function App() {
           <img src="/assets/react3.jpg" alt="Error" />
         </SwiperSlide>
       </Swiper>
+      </div>
     </>
   );
 }

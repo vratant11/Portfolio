@@ -4,10 +4,10 @@ import 'react-vertical-timeline-component/style.min.css';
   import SchoolIcon from "@mui/icons-material/School";
   import StarIcon from "@mui/icons-material/Star";
   import WorkIcon from "@mui/icons-material/Work";
-
-
+import "./Timeline.css";
 const Timeline = () => {
   return (
+    <div className='Projects'>
     <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -124,6 +124,7 @@ const Timeline = () => {
     icon={<StarIcon />}
   />
 </VerticalTimeline>
+</div>
   )
 }
 
