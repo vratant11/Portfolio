@@ -10,22 +10,22 @@ const DrawerComp = () => {
     onClose={()=>setOpenDrawer(false)}
     >
         <List>
-            <ListItemButton onClick={()=>setOpenDrawer(false)} >
+            <ListItemButton onClick={()=>setOpenDrawer(false)} component="a" href="#Aboutme" >
                 <ListItemIcon>
                     <ListItemText>About</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
-            <ListItemButton onClick={()=>setOpenDrawer(false)}>
+            <ListItemButton onClick={()=>setOpenDrawer(false)} component="a" href="#skills">
                 <ListItemIcon>
                     <ListItemText >Skills</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
-            <ListItemButton onClick={()=>setOpenDrawer(false)}>
+            <ListItemButton onClick={()=>setOpenDrawer(false)} component="a" href="#work">
                 <ListItemIcon>
                     <ListItemText >Projects</ListItemText>
                 </ListItemIcon>
             </ListItemButton>
-            <ListItemButton onClick={()=>setOpenDrawer(false)}>
+            <ListItemButton onClick={()=>setOpenDrawer(false)} component="a" href="https://drive.google.com/file/d/1sbS_q8qg4foBcqWp6dGvgOgguYZdFdbz/view" target="_blank">
                 <ListItemIcon>
                     <ListItemText >Download CV</ListItemText>
                 </ListItemIcon>

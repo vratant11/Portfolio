@@ -4,9 +4,8 @@ import Portfolio from "./components/Portfolio/Portfolio";
 const App = () => {
   return (
     <>
-      <Cursor/>
-        <Portfolio />
-      
+      <Cursor />
+      <Portfolio />
     </>
   );
 };

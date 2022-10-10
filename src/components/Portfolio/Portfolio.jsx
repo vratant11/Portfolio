@@ -5,7 +5,6 @@ import "./Portfolio.css";
 import Navbar from "../Navbar";
 import Slider from "../slider/Slider";
 import Profile from "../Profiles/Profile";
-import Project from "../Projects/Project";
 // import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -18,6 +17,7 @@ import "swiper/css/pagination";
 // import { Pagination } from "swiper";
 import About from "../About/About";
 import Typewriterr from "../../Typewriter/Typewriterr";
+import Timeline from "../Timeline";
 // import { spacing } from "@mui/system";
 const Portfolio = () => {
   
@@ -34,14 +34,15 @@ const Portfolio = () => {
         <h1>Skills </h1>
       </div>
       <Slider/>
-      <div className="text" id="work">
-        <h1>Projects </h1>
-      </div>
-      <Project/>
+      <div className="text">
+        <h1 id="contacttext">Projects</h1>
+      </div> 
+      <Timeline/>      
       <div className="text">
         <h1 id="contacttext">Profiles</h1>
       </div>
-      <Profile/>      
+      <Profile/>  
+       
     </>
   );
 };
