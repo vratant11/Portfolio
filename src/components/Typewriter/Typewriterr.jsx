@@ -11,10 +11,6 @@ const Typewriterr = () => {
     <>
       <div
         className="Name"
-        // data-aos="fade-left"
-        // data-aos-anchor="#example-anchor"
-        // data-aos-offset="500"
-        // data-aos-duration="500"
       >
         <h1 id="textcolor">
           <div className="title">{state.title}</div>
