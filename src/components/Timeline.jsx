@@ -18,10 +18,14 @@ const Timeline = () => {
     icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">College Website</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <br></br>
+    <a href='https://timely-gecko-759900.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      HTML,CSS.
     </p>
+    
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -30,9 +34,12 @@ const Timeline = () => {
     icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">To-do List</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <br></br>
+    <a href='https://team-csi-probation.github.io/Vratant_CSI_To-do_List/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+      HTML,CSS,JAVASCRIPT.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -42,9 +49,12 @@ const Timeline = () => {
     icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">Weather-App</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+    <br></br>
+    <a href='https://csiakgecportal.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      User Experience, Visual Design
+      HTML,CSS,REACT.JS.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -54,9 +64,12 @@ const Timeline = () => {
     icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">Authentication-App</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <br></br>
+    <a href='https://csiakgecportal.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      User Experience, Visual Design
+      HTML,CSS,REACT.JS.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -66,9 +79,14 @@ const Timeline = () => {
     icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">Render-Form</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+    <h4 className="vertical-timeline-element-subtitle">Team Project</h4>
+    <br></br>
+    <a href='https://csiakgecportal.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      Strategy, Social Media
+      HTML,CSS,BOOTSTRAP,REACT.JS,MUI.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -78,9 +96,15 @@ const Timeline = () => {
     icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">Csi-Test-Portal</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+    <h4 className="vertical-timeline-element-subtitle">Team Project</h4>
+    <br></br>
+    <a href='https://csiakgecportal.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
+
     <p>
-      Creative Direction, User Experience, Visual Design
+      HTML,CSS,BOOTSTRAP,MUI,REACT.JS.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -90,9 +114,14 @@ const Timeline = () => {
     icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">Cine-Registration Form</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <h4 className="vertical-timeline-element-subtitle">Team Project</h4>
+    <br></br>
+    <a href='http://recruitmentform.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
+
     <p>
-      Creative Direction, Visual Design
+      HTML,CSS,MUI,REACT.JS.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -102,9 +131,12 @@ const Timeline = () => {
     icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">E-Commerce-website-using-REDUX</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <br></br>
+    <a href='https://myshope.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      Creative Direction, Visual Design
+      HTML,CSS,REACT.JS,REDUX CORE,Semantic Ui.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -114,9 +146,12 @@ const Timeline = () => {
     icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">CRUD-Using-Redux-Toolkit</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <br></br>
+    <a href='https://crudapplications.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <br></br>
+    <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      Creative Direction, Visual Design
+      HTML,CSS,REACT.JS,REDUX ToolKit.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
