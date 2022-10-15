@@ -39,9 +39,9 @@ const Portfolio = () => {
         <h1 >Projects</h1>
       </div> 
       <Timeline/>  
-      <div className="text">
+      {/* <div className="text">
         <h1 id="contacttext">Certificates</h1> 
-      </div>  
+      </div>   */}
       {/* <Certificates/>   */}
       <div className="text">
         <h1 id="contacttext">Profiles</h1>
