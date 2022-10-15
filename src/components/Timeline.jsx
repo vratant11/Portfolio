@@ -81,7 +81,7 @@ const Timeline = () => {
     <h3 className="vertical-timeline-element-title">Render-Form</h3>
     <h4 className="vertical-timeline-element-subtitle">Team Project</h4>
     <br></br>
-    <a href='https://csiakgecportal.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <a href='https://csi-register.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
 
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
