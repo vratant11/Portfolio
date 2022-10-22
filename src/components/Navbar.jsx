@@ -25,9 +25,9 @@ const Navbar = () => {
           <LogoDevIcon />
           {isMatch ? (
             <>
-              {/* <Typography sx={{ fontSize: "1.5rem", paddingLeft: "10%" }}>
+              <Typography sx={{ fontSize: "1.5rem", paddingLeft: "10%" }}>
                 My-Portfolio
-              </Typography> */}
+              </Typography>
               <DrawerComp />
             </>
           ) : (
