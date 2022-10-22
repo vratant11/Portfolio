@@ -6,6 +6,7 @@
     padding: 1rem;
     overflow: hidden;
     margin-bottom: 5%;
+    
     /* border: 2px solid white; */
     /* border-radius: 5px; */
     /* box-shadow: 0px 1px 20px 11px rgba(128, 128, 128, 0.5); */
@@ -16,7 +17,7 @@
 .box{
     border-radius: 5px;
     box-shadow: 0px 1px 20px 11px rgba(128, 128, 128, 0.5);
-
+    
 
 }
 #contacttext{
@@ -46,6 +47,8 @@
     align-items: center;
     padding: 1rem;
     font-weight: 600;
+    /* box-shadow: 0px 1px 20px 11px rgba(128, 128, 128, 0.5); */
+    margin-bottom: 5%;
     
     
 }

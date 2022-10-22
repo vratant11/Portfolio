@@ -3,7 +3,9 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <div className="Intro" data-aos="zoom-in" data-aos-duration="3000">
+      <div className="Intro" data-aos="fade-up"
+     data-aos-duration="3000">
+        <div className="effect">
         <div className="About">
           <p>
             B.tech( CS ) undergrad student with coding knowledge in different
@@ -14,6 +16,7 @@ const About = () => {
         </div>
         <div className="picture">
           <img src="/assets/photo.jpg " alt="Error" />
+        </div>
         </div>
       </div>
     </>

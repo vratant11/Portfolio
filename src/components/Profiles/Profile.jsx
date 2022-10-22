@@ -9,7 +9,8 @@ const Profile = () => {
   return (
     <>
       <div className="contact" id="profile">
-        <div className="box">
+        <div className="box" data-aos="fade-up"
+     data-aos-duration="3000">
         <Button
           onClick={() => window.open("https://github.com/vratant11", "_blank")}
         >
@@ -46,8 +47,8 @@ const Profile = () => {
         </Button>
         </div>
       </div>
-      <div className="mail">
-        <div className="btn">
+      <div className="mail" >
+        <div className="btn"  >
           <Button id="button" href="mailto:vratant11@gmail.com">
             Mail Vratant
           </Button>

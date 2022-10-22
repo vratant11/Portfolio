@@ -18,6 +18,7 @@ import "swiper/css/pagination";
 import About from "../About/About";
 import Typewriterr from "../Typewriter/Typewriterr";
 import Timeline from "../Timeline";
+import Footer from "../Footer/Footer";
 // import Certificates from "../Certificates/Certificates";
 // import { spacing } from "@mui/system";
 const Portfolio = () => {
@@ -47,6 +48,7 @@ const Portfolio = () => {
         <h1 id="contacttext">Profiles</h1>
       </div>
       <Profile/> 
+      <Footer/>
              
     </>
   );
