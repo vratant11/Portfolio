@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 import "./slider.css";
 
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Pagination,Autoplay } from "swiper";
 
 export default function App() {
   return (
@@ -27,7 +27,8 @@ export default function App() {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Pagination,Autoplay]}
+        autoplay={{delay:1000}}
         className="mySwiper"
       >
         <SwiperSlide>

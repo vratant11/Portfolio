@@ -17,13 +17,13 @@ const Timeline = () => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">College Website</h3>
+    <h3 className="vertical-timeline-element-title">Website</h3>
     <br></br>
-    <a href='https://timely-gecko-759900.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
+    <a href='https://stellar-snickerdoodle-f6a010.netlify.app/'><h4 className="vertical-timeline-element-subtitle">View</h4></a>
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      HTML,CSS.
+      HTML,CSS,REACT.JS,MUI,JAVASCRIPT.
     </p>
     
   </VerticalTimelineElement>
