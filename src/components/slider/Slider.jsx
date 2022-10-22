@@ -31,7 +31,7 @@ export default function App() {
         // }}
         pagination={true}
         modules={[EffectCoverflow, Pagination,Autoplay]}
-        autoplay={{delay:1000}}
+        autoplay={{delay:2000}}
         className="mySwiper"
       >
         <SwiperSlide>
