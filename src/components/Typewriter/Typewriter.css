@@ -1,7 +1,7 @@
 
 .Name{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -115,5 +115,10 @@
     100%{
         transform: scale(1.2) translate(-90px) rotate(360deg);
         opacity: 0;
+    }
+}
+@media(max-width:400px){
+    .Name h1{
+        font-size: 2.5rem;
     }
 }
