@@ -13,7 +13,7 @@
     margin-top: 10%;
     /* border: 2px solid rgb(252, 237, 237); */
     gap:2rem;
-
+    margin-bottom: 15%;
     flex-wrap: wrap-reverse;
     /* border-bottom: 2px solid white; */
 }

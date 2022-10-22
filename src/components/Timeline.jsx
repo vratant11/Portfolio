@@ -23,7 +23,7 @@ const Timeline = () => {
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      HTML,CSS,REACT.JS,MUI,JAVASCRIPT.
+      HTML,CSS,REACTJS,MUI,JAVASCRIPT.
     </p>
     
   </VerticalTimelineElement>
@@ -54,7 +54,7 @@ const Timeline = () => {
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      HTML,CSS,REACT.JS.
+      HTML,CSS,REACTJS.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -69,7 +69,7 @@ const Timeline = () => {
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      HTML,CSS,REACT.JS.
+      HTML,CSS,REACTJS.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -86,7 +86,7 @@ const Timeline = () => {
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      HTML,CSS,BOOTSTRAP,REACT.JS,MUI.
+      HTML,CSS,BOOTSTRAP,REACTJS,MUI.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -104,7 +104,7 @@ const Timeline = () => {
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
 
     <p>
-      HTML,CSS,BOOTSTRAP,MUI,REACT.JS.
+      HTML,CSS,BOOTSTRAP,MUI,REACTJS.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -121,7 +121,7 @@ const Timeline = () => {
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
 
     <p>
-      HTML,CSS,MUI,REACT.JS.
+      HTML,CSS,MUI,REACTJS.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -136,7 +136,7 @@ const Timeline = () => {
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      HTML,CSS,REACT.JS,REDUX CORE,Semantic Ui.
+      HTML,CSS,REACTJS,REDUX CORE,Semantic Ui.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -151,7 +151,7 @@ const Timeline = () => {
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      HTML,CSS,REACT.JS,REDUX ToolKit.
+      HTML,CSS,REACTJS,REDUX ToolKit.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
