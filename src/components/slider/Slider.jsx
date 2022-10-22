@@ -26,6 +26,9 @@ export default function App() {
           modifier: 1,
           slideShadows: true,
         }}
+        // pagination={{
+        //   type: "progressbar",
+        // }}
         pagination={true}
         modules={[EffectCoverflow, Pagination,Autoplay]}
         autoplay={{delay:1000}}

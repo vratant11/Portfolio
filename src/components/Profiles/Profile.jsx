@@ -9,6 +9,7 @@ const Profile = () => {
   return (
     <>
       <div className="contact" id="profile">
+        <div className="box">
         <Button
           onClick={() => window.open("https://github.com/vratant11", "_blank")}
         >
@@ -43,6 +44,7 @@ const Profile = () => {
             <InstagramIcon fontSize="large" />
           </div>
         </Button>
+        </div>
       </div>
       <div className="mail">
         <div className="btn">
