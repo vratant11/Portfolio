@@ -7,8 +7,10 @@ import {
   Button,
   useMediaQuery,
   useTheme,
+  Typography,
 } from "@mui/material";
-import AdbIcon from "@mui/icons-material/Adb";
+// import AdbIcon from "@mui/icons-material/Adb";
+import LogoDevIcon from '@mui/icons-material/LogoDev';
 import DrawerComp from "./Drawer";
 const Navbar = () => {
   const [value, setValue] = useState();
@@ -20,7 +22,7 @@ const Navbar = () => {
     <>
       <AppBar  position="static" style={{ background: 'grey', boxShadow: 'none'}}>
         <Toolbar>
-          <AdbIcon />
+          <LogoDevIcon />
           {isMatch ? (
             <>
               {/* <Typography sx={{ fontSize: "1.5rem", paddingLeft: "10%" }}>
@@ -30,9 +32,9 @@ const Navbar = () => {
             </>
           ) : (
             <>
-            {/* <Typography sx={{ fontSize: "1.5rem", paddingLeft: "1%" }}>
+            <Typography sx={{ fontSize: "1.5rem", paddingLeft: "1%" }}>
                 My-Portfolio
-              </Typography> */}
+              </Typography>
               <Tabs
                 textColor="inherit"
                 value={value}
