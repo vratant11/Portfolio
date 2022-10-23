@@ -19,6 +19,7 @@ import About from "../About/About";
 import Typewriterr from "../Typewriter/Typewriterr";
 import Timeline from "../Timeline";
 import Footer from "../Footer/Footer";
+import Experience from "../Experience/Experience";
 // import Certificates from "../Certificates/Certificates";
 // import { spacing } from "@mui/system";
 const Portfolio = () => {
@@ -43,6 +44,10 @@ const Portfolio = () => {
       {/* <div className="text">
         <h1 id="contacttext">Certificates</h1> 
       </div>   */}
+      <div className="text">
+        <h1 id="contacttext">Experience</h1>
+      </div>
+      <Experience/>
       {/* <Certificates/>   */}
       <div className="text">
         <h1 id="contacttext">Profiles</h1>
