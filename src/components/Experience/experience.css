@@ -4,6 +4,7 @@
     padding: 2rem;
     flex-wrap: wrap;
     align-items: center;
+    gap: 2rem;
 }
 .insider{
     border-radius: 5px;

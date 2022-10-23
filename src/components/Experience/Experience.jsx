@@ -29,6 +29,23 @@ const ExpandMore = styled((props) => {
 
 export default function Experience() {
   const [expanded, setExpanded] = React.useState(false);
+  const Data =[
+    {
+    id:"1",
+    avatar:"CSI",
+    title:"Team CSI",
+    subheader:"December 17, 2021 - Present",
+    image:"https://psitche.ac.in/che/assets/site/220px-Csi_logo_india.jpg",
+    href:"https://csiakgec.in/index",
+    head:"My Journey with team:",
+    para1:" Working with a team as a Frontend Developer which consists of 31 members for cultivating technical activities in the college.Organised various workshops and seminars on trending technologies.",
+    para2:"Worked as a team with backend and designers on various group projects.",
+    para3:" Biggest achievement with the team is completing the Exam Portal,it is basically a portal like JEE mains where we have 2 sides Admin and User side from admin we manage all the data to be displayed on user side.I have worked on impleminting user side.The project is live now.",
+
+  },
+  
+  
+]
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -36,13 +53,15 @@ export default function Experience() {
 
   return (
     <div className="expcard">
-      <Card sx={{ maxWidth: 345 }} className="insider" data-aos="flip-left"
+        {Data.map((item) =>{
+            return (
+                <Card sx={{ maxWidth: 345 }} className="insider" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: blue[500] }} aria-label="recipe">
-              CSI
+              {item.avatar}
             </Avatar>
           }
           action={
@@ -50,14 +69,14 @@ export default function Experience() {
               <MoreVertIcon />
             </IconButton>
           }
-          title="Team CSI"
-          subheader="December 17, 2021 - Present"
+          title={item.title}
+          subheader={item.subheader}
         />
         <CardMedia
           component="img"
           height="300"
-          image="https://psitche.ac.in/che/assets/site/220px-Csi_logo_india.jpg"
-          alt="Paella dish"
+          image={item.image}
+          alt="Error"
         />
         {/* <CardContent>
         <Typography variant="body2" color="text.secondary">
@@ -70,7 +89,7 @@ export default function Experience() {
           {/* <IconButton aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton> */}
-        <IconButton aria-label="share" href="https://csiakgec.in/index">
+        <IconButton aria-label="share" href={item.href}>
           <ShareIcon />
         </IconButton>
           <ExpandMore
@@ -84,26 +103,22 @@ export default function Experience() {
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>My Journey with team:</Typography>
+            <Typography paragraph>{item.head}</Typography>
             <Typography paragraph>
-              Working with a team as a Frontend Developer which consists of 31 members for cultivating technical
-              activities in the college.Organised various workshops and seminars
-              on trending technologies.
+             {item.para1}
             </Typography>
             <Typography paragraph>
-              Worked as a team with backend and designers on various group
-              projects.
+              {item.para2}
             </Typography>
             <Typography paragraph>
-              Biggest achievement with the team is completing the Exam Portal,it
-              is basically a portal like JEE mains where we have 2 sides Admin
-              and User side from admin we manage all the data to be displayed on
-              user side.I have worked on impleminting user side.The project is
-              live now.
+              {item.para3}
             </Typography>
           </CardContent>
         </Collapse>
       </Card>
+            )
+        })}
+      
     </div>
   );
 }
