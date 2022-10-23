@@ -25,7 +25,7 @@ const Navbar = () => {
   console.log(isMatch);
   return (
     <>
-      <AppBar  position="sticky" style={{ background: 'transparent', boxShadow: 'none'}} className="app" >
+      <AppBar   style={{ background: 'rgba(128, 128, 128, 0.968)', boxShadow: 'none'}} className="app" >
         <Toolbar>
           <LogoDevIcon />
           {isMatch ? (

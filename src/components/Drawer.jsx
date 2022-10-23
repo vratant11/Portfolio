@@ -1,4 +1,5 @@
 import React ,{useState} from 'react'
+import "./drawer.css";
 import {Drawer,List, ListItemText,ListItemIcon,ListItemButton, IconButton} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 // import { Link } from "react-router-dom";
@@ -7,9 +8,9 @@ const DrawerComp = () => {
   return (
     <>
     <Drawer open={openDrawer}
-    onClose={()=>setOpenDrawer(false)}
+    onClose={()=>setOpenDrawer(false)} 
     >
-        <List>
+        <List className="drawerlist">
             <ListItemButton onClick={()=>setOpenDrawer(false)} component="a" href="#Aboutme" >
                 <ListItemIcon>
                     <ListItemText>About</ListItemText>
