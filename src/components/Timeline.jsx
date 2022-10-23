@@ -23,7 +23,7 @@ const Timeline = () => {
     <br></br>
     <h4 className="vertical-timeline-element-subtitle">Skills:</h4>
     <p>
-      HTML,CSS,REACTJS,MUI,JAVASCRIPT.
+      HTML, CSS, REACTJS, MUI,JAVASCRIPT.
     </p>
     
   </VerticalTimelineElement>
