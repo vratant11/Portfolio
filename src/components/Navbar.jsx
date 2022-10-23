@@ -20,7 +20,7 @@ const Navbar = () => {
   console.log(isMatch);
   return (
     <>
-      <AppBar  position="static" style={{ background: 'grey', boxShadow: 'none'}}>
+      <AppBar  position="static" style={{ background: 'none', boxShadow: 'none'}}>
         <Toolbar>
           <LogoDevIcon />
           {isMatch ? (
@@ -40,6 +40,7 @@ const Navbar = () => {
                 value={value}
                 onChange={(e, value) => setValue(value)}
                 indicatorColour="secondary"
+                
                 sx={{marginLeft: 'auto'}}
               >
                 <Tab label="About" href="#Aboutme"/>
