@@ -20,7 +20,7 @@ const Navbar = () => {
   console.log(isMatch);
   return (
     <>
-      <AppBar  position="static" style={{ background: 'none', boxShadow: 'none'}}>
+      <AppBar  position="sticky" style={{ background: 'none', boxShadow: 'none'}}>
         <Toolbar>
           <LogoDevIcon />
           {isMatch ? (
