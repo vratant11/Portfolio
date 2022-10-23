@@ -44,8 +44,8 @@ const Portfolio = () => {
       {/* <div className="text">
         <h1 id="contacttext">Certificates</h1> 
       </div>   */}
-      <div className="text">
-        <h1 id="contacttext">Experience</h1>
+      <div className="text" id="experience">
+        <h1 id="contacttext" >Experience</h1>
       </div>
       <Experience/>
       {/* <Certificates/>   */}

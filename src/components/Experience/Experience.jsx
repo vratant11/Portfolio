@@ -36,7 +36,9 @@ export default function Experience() {
 
   return (
     <div className="expcard">
-      <Card sx={{ maxWidth: 345 }} className="insider">
+      <Card sx={{ maxWidth: 345 }} className="insider" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: blue[500] }} aria-label="recipe">
