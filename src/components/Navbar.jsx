@@ -9,6 +9,11 @@ import {
   useTheme,
   Typography,
 } from "@mui/material";
+import "./navbar.css";
+
+// import { makeStyles } from "@material-ui/core/styles";
+
+// import { positions } from '@mui/system';
 // import AdbIcon from "@mui/icons-material/Adb";
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 import DrawerComp from "./Drawer";
@@ -20,7 +25,7 @@ const Navbar = () => {
   console.log(isMatch);
   return (
     <>
-      <AppBar  position="sticky" style={{ background: 'none', boxShadow: 'none'}}>
+      <AppBar  position="sticky" style={{ background: 'transparent', boxShadow: 'none'}} className="app" >
         <Toolbar>
           <LogoDevIcon />
           {isMatch ? (

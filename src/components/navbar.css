@@ -1,0 +1,9 @@
+.app{
+    position: sticky !important;
+    z-index: 999999999;
+    background-color: rgba(0, 170, 255, 0.347) !important;
+    opacity: 0.9;
+    color: white !important;
+    /* font-size: 3rem !important; */
+    /* font-weight: 1500 !important; */
+}
