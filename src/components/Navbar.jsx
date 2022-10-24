@@ -31,14 +31,15 @@ const Navbar = () => {
           {isMatch ? (
             <>
               <Typography sx={{ fontSize: "1rem", paddingLeft: "10%" }}>
-                My-Portfolio
+                <strong>My-Portfolio</strong>
               </Typography>
               <DrawerComp />
             </>
           ) : (
             <>
             <Typography sx={{ fontSize: "1.5rem", paddingLeft: "1%" }}>
-                My-Portfolio
+            <strong>My-Portfolio</strong>
+
               </Typography>
               <Tabs
                 textColor="inherit"
@@ -48,7 +49,7 @@ const Navbar = () => {
                 
                 sx={{marginLeft: 'auto'}}
               >
-                <Tab label="About" href="#Aboutme"/>
+               <Tab label="About" href="#Aboutme" />
                 <Tab label="Skills" href="#skills" />
                 <Tab label="Projects" href="#work"/>
                 <Tab label="Profiles" href="#profile"/>
