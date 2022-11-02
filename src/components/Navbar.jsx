@@ -57,7 +57,7 @@ const Navbar = () => {
 
 
               </Tabs>
-              <Button  sx={{ marginLeft: "auto" }} variant="contained" href="https://drive.google.com/file/d/1sbS_q8qg4foBcqWp6dGvgOgguYZdFdbz/view" target="_blank">
+              <Button  sx={{ marginLeft: "auto" }} variant="contained" href="https://drive.google.com/file/d/1mRS0bK5qawSdjhczah2ALOojX_1gYhjW/view?usp=share_link" target="_blank">
                 Resume
               </Button>
             </>
