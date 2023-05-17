@@ -1,4 +1,4 @@
-HehhiiiiiiiiyHhlwi# Getting Started with Create hihlw React App
+HehhiiiiiiiiyHhlwi# Getting hi Started with Create hihlw React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Hi
